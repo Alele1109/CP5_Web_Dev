@@ -52,3 +52,53 @@ body {
   flex-direction: column;
   box-sizing: border-box;
 }
+
+.page-transition {
+  will-change: transform, opacity, filter;
+  animation-fill-mode: both;
+}
+
+/* ENTRADA */
+.page-transition.enter {
+  animation: pageEnter 0.45s ease-in-out;
+}
+
+/* SAÍDA */
+.page-transition.exit {
+  animation: pageExit 0.3s ease-in-out forwards;
+}
+
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes pageExit {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(18px);
+    filter: blur(6px);
+  }
+}
+
+/* segurança UX */
+body {
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1;
+}
