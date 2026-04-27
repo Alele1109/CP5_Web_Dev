@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="border-t border-[var(--border)] px-7 py-4 text-center text-sm text-[var(--text)]">
       <p>
         &copy; {new Date().getFullYear()}{' '}
-        <strong className="text-[var(--text-h)] font-semibold">Minha Loja</strong>.
+        <strong className="text-[var(--text-h)] font-semibold">GamerStore</strong>.
         {' '}Todos os direitos reservados.
       </p>
     </footer>
