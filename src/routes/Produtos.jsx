@@ -5,8 +5,8 @@ import jogo from '../assets/imgs/jogo1.png'
 const produtos = [
   {
     id: 1,
-    name: 'Jogo de Tabuleiro Premium',
-    description: 'Um jogo estratégico para toda a família. Diversão garantida para 2 a 6 jogadores.',
+    name: 'Tales of Mordoria',
+    description: 'Mergulhe de cabeça em um RPG de ação épico, onde você é um aventureiro em busca de glória e tesouros na misteriosa terra de Mordoria.',
     price: 149.9,
     oldPrice: 199.9,
     category: 'Jogos',
@@ -14,8 +14,8 @@ const produtos = [
   },
   {
     id: 2,
-    name: 'Expansão — Conquistas',
-    description: 'Adicione novas missões e peças exclusivas ao jogo base.',
+    name: 'Cyberbug 1866',
+    description: 'Jogue neste mundo onde você é um hacker em 1866.',
     price: 79.9,
     oldPrice: null,
     category: 'Expansão',
@@ -23,13 +23,22 @@ const produtos = [
   },
   {
     id: 3,
-    name: 'Edição Colecionador',
-    description: 'Versão limitada com componentes em metal e caixa personalizada.',
+    name: 'Malário Bros.',
+    description: 'Jogue neste mundo 2d plataformer onde Malário derrota Browser.',
     price: 349.9,
     oldPrice: 399.9,
     category: 'Colecionador',
     image: jogo,
   },
+  {
+    id: 4,
+    name: 'Roachman: Morales Miles',
+    description: 'A história de Morales Miles, o Homem-barata, um herói improvável que luta contra o crime em uma cidade infestada de baratas.',
+    price: 59.9,
+    oldPrice: null,
+    category: 'Cartas',
+    image: jogo,
+  }
 ]
 
 export default function Produtos() {
