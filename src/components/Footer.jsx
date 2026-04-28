@@ -7,8 +7,8 @@ export default function Footer() {
       <div className="flex items-center justify-center gap-2 mb-2">
         <img
           src={logo}
-          alt="GamerStore"
-          className="h-6 w-6 object-contain"
+          alt="Minha Loja"
+          className="h-7 w-7 object-contain"
         />
         <strong className="text-[var(--text-h)]">
           GamerStore
