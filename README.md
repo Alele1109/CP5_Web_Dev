@@ -1,16 +1,57 @@
-# React + Vite
+# 📘 CP5 Web Dev — GamerStore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Descrição do Projeto
 
-Currently, two official plugins are available:
+Este projeto foi desenvolvido como parte da atividade CP5 da disciplina de Web Development. O objetivo foi construir uma aplicação do tipo SPA (Single Page Application) utilizando React, aplicando conceitos de componentização, navegação entre páginas e controle de versão com Git e GitHub.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A aplicação simula uma loja virtual de jogos chamada **GamerStore**, contendo uma página inicial com destaques e uma página de produtos.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Objetivo
 
-## Expanding the ESLint configuration
+* Aplicar conceitos de desenvolvimento com React
+* Implementar navegação entre páginas utilizando React Router
+* Utilizar Git e GitHub com fluxo de branches e Pull Requests
+* Praticar organização de código e boas práticas de desenvolvimento em equipe
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Funcionalidades
+
+* Página inicial com cards de jogos em destaque
+* Página de produtos com listagem de itens
+* Botão de compra com redirecionamento de rota
+* Header com navegação entre páginas
+* Footer simples com identidade da loja
+* Inclusão de logo na interface
+* Efeitos visuais e transições entre páginas
+
+---
+
+## 🔄 Fluxo de Desenvolvimento
+
+O projeto foi desenvolvido utilizando um fluxo de versionamento com Git:
+
+1. Clonagem do repositório base (fork)
+2. Criação de branches para novas funcionalidades (`feat/...`)
+3. Implementação incremental de melhorias
+4. Commits organizados por alteração realizada
+5. Push das alterações para o repositório remoto
+6. Criação de Pull Request para revisão e aprovação
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* React
+* Vite
+* React Router DOM
+* CSS / TailwindCSS
+* Git & GitHub
+
+---
+
+## 🚀 Conclusão
+
+O projeto permitiu a aplicação prática de conceitos fundamentais de desenvolvimento em Web Development, especialmente a criação de aplicações SPA, organização de componentes reutilizáveis e uso de fluxo profissional de versionamento com Git e GitHub.
